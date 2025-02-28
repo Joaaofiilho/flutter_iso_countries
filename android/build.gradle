@@ -2,6 +2,7 @@ group 'com.anoop4real.iso_countries'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    namespace = "com.anoop4real.iso_countries"
     ext.kotlin_version = '1.5.31'
     repositories {
         google()
